@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T11:27:30 IST" name="Default suite" finished-at="2022-12-06T11:27:53 IST" duration-ms="23204">
+  <suite started-at="2023-01-10T12:24:31 IST" name="Suite" finished-at="2023-01-10T12:24:47 IST" duration-ms="16016">
     <groups>
     </groups>
-    <test started-at="2022-12-06T11:27:30 IST" name="Default test" finished-at="2022-12-06T11:27:53 IST" duration-ms="23204">
-      <class name="com.rb.fb.FacebookTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.rb.fb.FacebookTest@742ff096]" started-at="2022-12-06T11:27:30 IST" name="beforeTest" finished-at="2022-12-06T11:27:42 IST" duration-ms="11440" status="PASS">
+    <test started-at="2023-01-10T12:24:31 IST" name="TestPageFactory" finished-at="2023-01-10T12:24:47 IST" duration-ms="16016">
+      <class name="com.rb.fb.PageFactoryTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.rb.fb.PageFactoryTest@28261e8e]" started-at="2023-01-10T12:24:31 IST" name="beforeTest" finished-at="2023-01-10T12:24:40 IST" duration-ms="9117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="fbLoginMethod()[pri:0, instance:com.rb.fb.FacebookTest@742ff096]" started-at="2022-12-06T11:27:42 IST" name="fbLoginMethod" finished-at="2022-12-06T11:27:42 IST" duration-ms="456" status="PASS">
+        <test-method signature="SearchSelenium(java.lang.String)[pri:0, instance:com.rb.fb.PageFactoryTest@28261e8e]" started-at="2023-01-10T12:24:40 IST" name="SearchSelenium" finished-at="2023-01-10T12:24:41 IST" duration-ms="835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[buddeeswar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fbLoginMethod -->
-        <test-method signature="fbHomeMethod()[pri:1, instance:com.rb.fb.FacebookTest@742ff096]" started-at="2022-12-06T11:27:42 IST" name="fbHomeMethod" finished-at="2022-12-06T11:27:52 IST" duration-ms="10153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fbHomeMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.rb.fb.FacebookTest@742ff096]" started-at="2022-12-06T11:27:52 IST" name="afterTest" finished-at="2022-12-06T11:27:53 IST" duration-ms="1070" status="PASS">
+        </test-method> <!-- SearchSelenium -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.rb.fb.PageFactoryTest@28261e8e]" started-at="2023-01-10T12:24:41 IST" name="afterTest" finished-at="2023-01-10T12:24:47 IST" duration-ms="5955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.rb.fb.FacebookTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.rb.fb.PageFactoryTest -->
+    </test> <!-- TestPageFactory -->
+  </suite> <!-- Suite -->
 </testng-results>

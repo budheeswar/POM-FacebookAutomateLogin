@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rb.fb.FacebookTest">
+      <class name="com.rb.fb.PageFactoryTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="fbHomeMethod"/>
           <include name="afterTest"/>
+          <include name="SearchSelenium"/>
         </methods>
-      </class> <!-- com.rb.fb.FacebookTest -->
+      </class> <!-- com.rb.fb.PageFactoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

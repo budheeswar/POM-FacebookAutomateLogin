@@ -21,7 +21,8 @@ public class FacebookTest {
 	}
 
 	@Test(priority = 1)
-	public void fbHomeMethod() {
+	public void fbHomeMethod() throws InterruptedException {
+		Thread.sleep(2000);
 		FBHomePageElements home = new FBHomePageElements(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		home.profileNavigation();
@@ -40,7 +41,7 @@ public class FacebookTest {
 
 	@AfterTest
 	public void afterTest() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }
